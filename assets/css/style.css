@@ -101,51 +101,83 @@ body {
 
 /* -------------------------- Main-Section */
 
-.main-section-container {
+.main-container {
     text-align: center;
 }
 
-.main-section-container h2 {
+.main-container h2 {
     font-weight: 700;
     font-size: 50px;
-    color: #4a4a4f;
+    border-bottom: 3px dashed #000;
+    padding-bottom: 24px;
 }
 
 /* -------------------------- Section/Reviews */
 
 .reviews-container {
-    background-color: #00f1ff;
-    padding-top: 50px;
+    background-color: #191970;
+    padding-top: 26px;
     padding-bottom: 25px;
 }
 
+.main-container .page-header-review {
+    color: #fff;
+}
+
 blockquote {
-    border-color: #4a4a4f;
+    border-color: #000;
 }
 
 blockquote p {
-    color: #4a4a4f;
+    color: #fff;
 }
 
 blockquote footer {
     font-size: 20px;
 }
 
+
+
 /* -------------------------- Section/About */
 
-.about-container {
+.main-right-container {
+    margin: 0;
+    padding: 0;
+    border-left: 3px dashed #000;
+    border-right: 3px dashed #000;
+}
+
+.main-right-container .about-container {
     background-color: #C0C0C0;
-    padding-top: 18px;
-    padding-bottom: 25px;
-    border-left: 3px dashed;
-    border-right: 3px dashed;
+    
 }
 
-.about-container .about-content-container p {
+.main-right-container .about-container p {
     font-size: 20px;
-    padding: 10px 38px;
+    padding: 20px 38px;
+    margin-bottom: 0;
 }
 
+.main-container .page-header-about {
+    color: #4a4a4f;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.about-button {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* -------------------------- Section/Event */
+
+.main-right-container .event-container {
+    background-color: #2E8B57;
+}
+
+.main-container .page-header-event {
+    margin-top: 0;
+}
 
 /* -------------------------- Media Queries */
 
@@ -171,9 +203,9 @@ blockquote footer {
         font-size: 24px;
     }
 
-    .about-container .about-content-container p {
+    .main-right-container .about-container p {
         font-size: 24px;
-        padding: 10px 70px;
+        padding: 25px 70px;
     }
 
 }
