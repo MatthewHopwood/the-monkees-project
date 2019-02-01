@@ -4,11 +4,12 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: "Indie Flower", sans-serif;
 }
 
 /* -------------------------- Header */
 
-header {
+.header-container {
     height: 10vh;
 }
 
@@ -19,6 +20,7 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #4a4a4f;
+    border-bottom: 3px dashed #000;
 }
 
 .navbar-default .navbar-brand {
@@ -88,13 +90,13 @@ header {
 .cover-image-container {
     padding: 0;
     text-align: center;
-    
+
 }
 
 .cover-image-container .cover-image {
-   width: 100%;
-   height: auto;
-   padding: 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
 }
 
 /* -------------------------- Main-Section */
@@ -103,19 +105,47 @@ header {
     text-align: center;
 }
 
+.main-section-container h2 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #4a4a4f;
+}
+
 /* -------------------------- Section/Reviews */
 
 .reviews-container {
-     background-color: #00f1ff;
-     padding-top: 50px;
+    background-color: #00f1ff;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+blockquote {
+    border-color: #4a4a4f;
+}
+
+blockquote p {
+    color: #4a4a4f;
+}
+
+blockquote footer {
+    font-size: 20px;
 }
 
 /* -------------------------- Section/About */
 
 .about-container {
     background-color: #C0C0C0;
-    padding-top: 50px;
+    padding-top: 18px;
+    padding-bottom: 25px;
+    border-left: 3px dashed;
+    border-right: 3px dashed;
 }
+
+.about-container .about-content-container p {
+    font-size: 20px;
+    padding: 10px 38px;
+}
+
 
 /* -------------------------- Media Queries */
 
@@ -136,9 +166,19 @@ header {
         font-size: 50px;
         margin-top: 14px;
     }
+
+    blockquote p {
+        font-size: 24px;
+    }
+
+    .about-container .about-content-container p {
+        font-size: 24px;
+        padding: 10px 70px;
+    }
+
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
     .navbar-default .navbar-nav>li>a {
         font-size: 30px;
     }
@@ -150,5 +190,9 @@ header {
 
     .navbar .navbar-brand {
         font-size: 72px;
+    }
+
+    blockquote p {
+        font-size: 30px;
     }
 }
