@@ -6,7 +6,13 @@ body {
     padding: 0;
 }
 
-/* -------------------------- Navbar */
+/* -------------------------- Header */
+
+header {
+    height: 10vh;
+}
+
+/* -------------------------- Header/Navbar */
 
 .navbar {
     font-family: "Indie Flower", sans-serif;
@@ -74,6 +80,41 @@ body {
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
     background-color: transparent;
+}
+
+
+/* -------------------------- Section/Cover-image */
+
+.cover-image-container {
+    padding: 0;
+    text-align: center;
+    
+}
+
+.cover-image-container .cover-image {
+   width: 100%;
+   height: auto;
+   padding: 0;
+}
+
+/* -------------------------- Main-Section */
+
+.main-section-container {
+    text-align: center;
+}
+
+/* -------------------------- Section/Reviews */
+
+.reviews-container {
+     background-color: #00f1ff;
+     padding-top: 50px;
+}
+
+/* -------------------------- Section/About */
+
+.about-container {
+    background-color: #C0C0C0;
+    padding-top: 50px;
 }
 
 /* -------------------------- Media Queries */
