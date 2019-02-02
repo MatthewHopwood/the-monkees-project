@@ -103,6 +103,7 @@ body {
 
 .main-container {
     text-align: center;
+    font-family: "Indie Flower", sans-serif;
 }
 
 .main-container h2 {
@@ -114,13 +115,13 @@ body {
 
 /* -------------------------- Section/Reviews */
 
-.reviews-container {
+.review-column {
     background-color: #191970;
     padding-top: 26px;
     padding-bottom: 25px;
 }
 
-.main-container .page-header-review {
+.page-header-review {
     color: #fff;
 }
 
@@ -140,25 +141,22 @@ blockquote footer {
 
 /* -------------------------- Section/About */
 
-.main-right-container {
+.about-column {
+    background-color: #C0C0C0;
     margin: 0;
     padding: 0;
     border-left: 3px dashed #000;
     border-right: 3px dashed #000;
+
 }
 
-.main-right-container .about-container {
-    background-color: #C0C0C0;
-    
-}
-
-.main-right-container .about-container p {
+.about-column p {
     font-size: 20px;
     padding: 20px 38px;
     margin-bottom: 0;
 }
 
-.main-container .page-header-about {
+.page-header-about {
     color: #4a4a4f;
     margin-top: 0;
     padding-top: 20px;
@@ -167,16 +165,28 @@ blockquote footer {
 .about-button {
     margin-top: 20px;
     margin-bottom: 40px;
+    border: 3px dashed #c0c0c0;
+    font-size: 24px;
 }
 
 /* -------------------------- Section/Event */
 
-.main-right-container .event-container {
+.event-column {
     background-color: #2E8B57;
+    padding: 0;
+    border-left: 3px dashed #000;
+    border-right: 3px dashed #000;
 }
 
-.main-container .page-header-event {
-    margin-top: 0;
+.event-column  {
+    color: #000;
+}
+
+.page-header-event {
+    margin: 0;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    color: #000;
 }
 
 /* -------------------------- Media Queries */
@@ -203,7 +213,7 @@ blockquote footer {
         font-size: 24px;
     }
 
-    .main-right-container .about-container p {
+    .about-column p {
         font-size: 24px;
         padding: 25px 70px;
     }
@@ -227,4 +237,11 @@ blockquote footer {
     blockquote p {
         font-size: 30px;
     }
+}
+
+footer .footer-container {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
