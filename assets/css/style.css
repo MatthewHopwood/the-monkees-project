@@ -6,6 +6,7 @@ body {
     padding: 0;
     font-family: "Indie Flower", sans-serif;
     overflow-x: hidden;
+    background-color: #4a4a4f ;
 }
 
 /* -------------------------- Special padding/margins etc */
@@ -19,7 +20,7 @@ h3 {
 /* -------------------------- Header */
 
 .header-container {
-    height: 10vh;
+    height: 15vh;
 }
 
 /* -------------------------- Header/Navbar */
@@ -277,6 +278,10 @@ blockquote footer {
     text-decoration: underline;
 }
 
+.date-margin {
+    margin-top: 40px;
+}
+
 /*--------------------------- Footer */
 
 footer .footer-container {
@@ -292,12 +297,16 @@ footer .footer-container {
     font-size: 20px;
     position: relative;
     top: 90px;
-    text-align: center
-    
+    text-align: center;
+}
+
+.copyright-footer-small {
+    font-size: 20px;
+    text-align: center;
 }
 
 .social-icons-footer {
-    font-size: 50px;
+    font-size: 42px;
     text-align: center;
     margin-top: 25px;
 }
@@ -358,6 +367,10 @@ footer .fa:hover {
     .about-column p {
         font-size: 24px;
         padding: 25px 70px;
+    }
+    
+    .date-margin {
+        margin-top: 0;
     }
 }
 
