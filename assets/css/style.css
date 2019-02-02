@@ -5,6 +5,15 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Indie Flower", sans-serif;
+    overflow-x: hidden;
+}
+
+/* -------------------------- Special padding/margins etc */
+
+h1,
+h2,
+h3 {
+    margin: 0;
 }
 
 /* -------------------------- Header */
@@ -21,6 +30,10 @@ body {
     padding-bottom: 20px;
     background-color: #4a4a4f;
     border-bottom: 3px dashed #000;
+}
+
+.navbar-right {
+    margin-right: 0;
 }
 
 .navbar-default .navbar-brand {
@@ -87,6 +100,11 @@ body {
 
 /* -------------------------- Section/Cover-image */
 
+.section-container {
+    margin: 0;
+    padding: 0;
+}
+
 .cover-image-container {
     padding: 0;
     text-align: center;
@@ -104,6 +122,7 @@ body {
 .main-container {
     text-align: center;
     font-family: "Indie Flower", sans-serif;
+    margin: 0;
 }
 
 .main-container h2 {
@@ -117,12 +136,15 @@ body {
 
 .review-column {
     background-color: #191970;
-    padding-top: 26px;
+    padding-top: 25px;
     padding-bottom: 25px;
+    margin: 0;
+    padding-right: 0;
 }
 
 .page-header-review {
     color: #fff;
+    margin: 0;
 }
 
 blockquote {
@@ -144,7 +166,6 @@ blockquote footer {
 .about-column {
     background-color: #C0C0C0;
     margin: 0;
-    padding: 0;
     border-left: 3px dashed #000;
     border-right: 3px dashed #000;
 
@@ -158,8 +179,8 @@ blockquote footer {
 
 .page-header-about {
     color: #4a4a4f;
-    margin-top: 0;
-    padding-top: 20px;
+    margin: 0;
+    padding: 20px 0 0;
 }
 
 .about-button {
@@ -173,13 +194,13 @@ blockquote footer {
 
 .event-column {
     background-color: #2E8B57;
-    padding: 0;
     border-left: 3px dashed #000;
     border-right: 3px dashed #000;
 }
 
 .event-column  {
     color: #000;
+    padding: 0;
 }
 
 .page-header-event {
@@ -188,6 +209,27 @@ blockquote footer {
     padding-bottom: 20px;
     color: #000;
 }
+
+.event-column p {
+    font-size: 30px;
+}
+
+.event-column p span {
+    font-size: 24px;
+}
+
+.event-column h3 {
+    font-size: 34px;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    padding-bottom: 10px;
+}
+
+.event-ticket {
+    border: 3px dashed #c0c0c0;
+    font-size: 24px;
+}
+
 
 /* -------------------------- Media Queries */
 
@@ -243,5 +285,4 @@ footer .footer-container {
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
-    margin: 0;
 }
