@@ -14,7 +14,7 @@
 </head>
 
 <body>
-	
+
 	<!-- Header -->
 	<header class="container-fluid header-container">
 		<!-- Nav -->
@@ -50,7 +50,7 @@
 
 	<!-- Section -->
 	<section class="container-fluid section-container">
-		
+
 		<!-- Cover-Image -->
 		<div class="row">
 			<div class="col-xs-12 cover-image-container">
@@ -58,10 +58,10 @@
 			</div>
 		</div>
 		<!-- /cover-image -->
-		
+
 		<!-- Main-Section -->
 		<div class="row main-container">
-			
+
 			<!-- Reviews -->
 			<div class="hidden-xs hidden-sm col-md-4 review-column">
 				<div class="row">
@@ -113,7 +113,7 @@
 				</div>
 			</div>
 			<!-- /about-main -->
-			
+
 			<!-- Event-main -->
 			<div class="col-xs-12 col-md-8 event-column">
 				<div class="row">
@@ -189,12 +189,12 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-12 visible-sm">
-						<button class="btn btn-default event-button-sm" data-toggle='modal' data-target='#buyticketsModal2'>Buy Tickets!</button>
+						<button class="btn btn-default event-button-sm" data-toggle='modal' data-target='#buyTicketsModal2'>Buy Tickets!</button>
 					</div>
 				</div>
 			</div>
 			<!-- /event-main -->
-			
+
 		</div>
 		<!-- /main-section -->
 	</section>
@@ -224,7 +224,7 @@
 		</div>
 	</footer>
 	<!-- /footer -->
-	
+
 	<!-- Modal1 -->
 	<div class="modal fade" id="buyTicketsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
@@ -232,27 +232,33 @@
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 					<h4 class="modal-title" id="myModalLabel"> Get your tickets to see The Monkees! </h4>
+					<p class="help-block">fields marked <strong>'*'</strong> are required</p>
 				</div>
 				<div class="modal-body">
 					<form>
 						<div class="form-group">
-							<label for="email">Email address</label>
+							<label for="email">Email address*</label>
 							<input type="email" class="form-control" id="email" placeholder="Email" required>
 							<p class="help-block">We'll never share your email address with anyone</p>
 						</div>
 						<div class="form-group">
-							<label for="quantity">How many tickets would you like?</label>
+							<label for="mobile">Mobile Number</label>
+							<input type="text" class="form-control" id="mobile" placeholder="Mobile Number">
+							<p class="help-block">We'll never share your mobile number with anyone</p>
+						</div>
+						<div class="form-group">
+							<label for="quantity">How many tickets would you like?*</label>
 							<input type="number" name="quantity" min="1" max="8" required>
 							<p class="help-block">max 8!</p>
 						</div>
-						<button type="submit" class="btn modal-button">Sign Up!</button>
+						<button type="submit" class="btn modal-button">Buy Now!</button>
 					</form>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- /modal1 -->
-	
+
 	<!-- Modal2 -->
 	<div class="modal fade" id="buyTicketsModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
 		<div class="modal-dialog" role="document">
@@ -260,22 +266,44 @@
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 					<h4 class="modal-title" id="myModalLabel2"> Get your tickets to see The Monkees!</h4>
+					<p class="help-block">fields marked <strong>'*'</strong> are required</p>
 				</div>
 				<div class="modal-body">
 					<form>
 						<div class="form-group">
-							<label for="email2">Email address</label>
+							<label for="email2">Email address*</label>
 							<input type="email" class="form-control" id="email2" placeholder="Email">
 							<p class="help-block">We'll never share your email address with anyone</p>
 						</div>
-						<button type="submit" class="btn btn-success">Sign Up!</button>
+						<div class="form-group">
+							<label for="mobile2">Mobile Number</label>
+							<input type="text" class="form-control" id="mobile2" placeholder="Mobile Number">
+							<p class="help-block">We'll never share your mobile number with anyone</p>
+						</div>
+						<div class="form-group">
+							<label>Event*</label>
+							<select name="events" required>
+								<option selected>04/04/19 - GLASGOW - The Old Fruitmarket</option>
+								<option>12/05/19 - DUBLIN - Olympia Theatre</option>
+								<option>07/07/19 - BISHOPS STORTFORD - Down Hall Hotel & Spa</option>
+								<option>04/09/19 - LONDON - Clapham Common</option>
+								<option>11/10/19 - Bristol - Bristol County Ground</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="quantity2">How many tickets would you like?*</label>
+							<input type="number" name="quantity2" min="1" max="8" required>
+							<p class="help-block">max 8!</p>
+						</div>
+						<button type="submit" class="btn modal-button">Buy Now!</button>
 					</form>
 				</div>
 			</div>
 		</div>
 	</div>
+	</div>
 	<!-- /modal2 -->
-	
+
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
