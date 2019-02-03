@@ -14,6 +14,7 @@
 </head>
 
 <body>
+	
 	<!-- Header -->
 	<header class="container-fluid header-container">
 		<!-- Nav -->
@@ -49,6 +50,7 @@
 
 	<!-- Section -->
 	<section class="container-fluid section-container">
+		
 		<!-- Cover-Image -->
 		<div class="row">
 			<div class="col-xs-12 cover-image-container">
@@ -56,8 +58,10 @@
 			</div>
 		</div>
 		<!-- /cover-image -->
+		
 		<!-- Main-Section -->
 		<div class="row main-container">
+			
 			<!-- Reviews -->
 			<div class="hidden-xs hidden-sm col-md-4 review-column">
 				<div class="row">
@@ -92,8 +96,8 @@
 			</div>
 			<!-- /reviews -->
 
+			<!-- About-main -->
 			<div class="col-xs-12 col-md-8 about-column">
-				<!-- About-main -->
 				<div class="row">
 					<div class="col-md-12 page-header-about">
 						<h2>About <br /> The Monkees</h2>
@@ -109,6 +113,7 @@
 				</div>
 			</div>
 			<!-- /about-main -->
+			
 			<!-- Event-main -->
 			<div class="col-xs-12 col-md-8 event-column">
 				<div class="row">
@@ -135,7 +140,7 @@
 						<p> Glasgow <br> <span>The Old Fruitmarket</span></p>
 					</div>
 					<div class="col-md-4 hidden-sm">
-						<button class="btn btn-default event-button" data-toggle='modal' data-target='#buyticketsModal1'>Buy Tickets!</button>
+						<button class="btn btn-default event-button" data-toggle='modal' data-target='#buyTicketsModal'>Buy Tickets!</button>
 					</div>
 				</div>
 				<div class="row">
@@ -146,7 +151,7 @@
 						<p> Dublin <br> <span>Olympia Theatre</span></p>
 					</div>
 					<div class="col-md-4  hidden-sm">
-						<button class="btn btn-default event-button" data-toggle='modal' data-target='#buyticketsModal1'>Buy Tickets!</button>
+						<button class="btn btn-default event-button" data-toggle='modal' data-target='#buyTicketsModal'>Buy Tickets!</button>
 					</div>
 				</div>
 				<div class="row">
@@ -157,7 +162,7 @@
 						<p>Bishops Stortford <br> <span>Down Hall Hotel & Spa</span></p>
 					</div>
 					<div class="col-md-4 hidden-sm">
-						<button class="btn btn-default event-button" data-toggle='modal' data-target='#buyticketsModal1'>Buy Tickets!</button>
+						<button class="btn btn-default event-button" data-toggle='modal' data-target='#buyTicketsModal'>Buy Tickets!</button>
 					</div>
 				</div>
 				<div class="row">
@@ -168,7 +173,7 @@
 						<p>London <br> <span>Clapham Common</span></p>
 					</div>
 					<div class="col-md-4 hidden-sm">
-						<button class="btn btn-default event-button" data-toggle='modal' data-target='#buyticketsModal1'>Buy Tickets!</button>
+						<button class="btn btn-default event-button" data-toggle='modal' data-target='#buyTicketsModal'>Buy Tickets!</button>
 					</div>
 				</div>
 				<div class="row">
@@ -179,7 +184,7 @@
 						<p>Bristol <br> <span>Bristol County Ground</span></p>
 					</div>
 					<div class="col-md-4 hidden-sm">
-						<button class="btn btn-default event-button" data-toggle='modal' data-target='#buyticketsModal1'>Buy Tickets!</button>
+						<button class="btn btn-default event-button" data-toggle='modal' data-target='#buyTicketsModal'>Buy Tickets!</button>
 					</div>
 				</div>
 				<div class="row">
@@ -189,8 +194,7 @@
 				</div>
 			</div>
 			<!-- /event-main -->
-
-
+			
 		</div>
 		<!-- /main-section -->
 	</section>
@@ -199,7 +203,7 @@
 	<!-- Footer -->
 	<footer class="container-fluid">
 		<div class="row footer-container">
-			<div class="col-md-4 hidden-xs hidden-sm">
+			<div class="col-md-4 hidden-xs hidden-sm parent-div">
 				<a class="btn btn-default footer-button" href="booking.html" target="_blank" role="button">Click here to book us!</a>
 			</div>
 			<div class="col-md-4 hidden-xs hidden-sm copyright-footer">
@@ -220,6 +224,58 @@
 		</div>
 	</footer>
 	<!-- /footer -->
+	
+	<!-- Modal1 -->
+	<div class="modal fade" id="buyTicketsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel"> Get your tickets to see The Monkees! </h4>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="email">Email address</label>
+							<input type="email" class="form-control" id="email" placeholder="Email" required>
+							<p class="help-block">We'll never share your email address with anyone</p>
+						</div>
+						<div class="form-group">
+							<label for="quantity">How many tickets would you like?</label>
+							<input type="number" name="quantity" min="1" max="8" required>
+							<p class="help-block">max 8!</p>
+						</div>
+						<button type="submit" class="btn modal-button">Sign Up!</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /modal1 -->
+	
+	<!-- Modal2 -->
+	<div class="modal fade" id="buyTicketsModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel2"> Get your tickets to see The Monkees!</h4>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="email2">Email address</label>
+							<input type="email" class="form-control" id="email2" placeholder="Email">
+							<p class="help-block">We'll never share your email address with anyone</p>
+						</div>
+						<button type="submit" class="btn btn-success">Sign Up!</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /modal2 -->
+	
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
