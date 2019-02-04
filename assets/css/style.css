@@ -284,6 +284,15 @@ blockquote footer {
 
 /*--------------------------- MEDIA */
 
+.page-header-media h1 {
+    font-size: 32px;
+    text-align: center;
+    background-color: #C0C0C0;
+    border-bottom: 3px dashed #000;
+    font-weight: 700;
+    padding: 30px 15px 15px;
+}
+
 .media-banner {
     text-align: center;
     display: flex;
@@ -291,6 +300,7 @@ blockquote footer {
     align-items: center;
     background-color: #5F9EA0;
     padding-bottom: 30px;
+    padding-top: 25px;
 }
 
 .media-banner p {
@@ -583,6 +593,10 @@ footer .fa:hover {
         padding: 25px 70px;
     }
 
+    .page-header-media h1 {
+        font-size: 52px;
+    }
+
     .date-margin {
         margin-top: 0;
     }
@@ -626,10 +640,6 @@ footer .fa:hover {
         margin-top: 10px;
     }
 
-    .audio-container img {
-        margin-bottom: 50px;
-    }
-
     .audio-player {
         margin-top: 30px;
         margin-bottom: 50px;
@@ -665,6 +675,10 @@ footer .fa:hover {
 
     blockquote p {
         font-size: 30px;
+    }
+    
+    .page-header-media h1 {
+        font-size: 62px;
     }
 
     .media-banner p {
