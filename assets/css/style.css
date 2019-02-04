@@ -282,6 +282,65 @@ blockquote footer {
     margin-top: 40px;
 }
 
+/*--------------------------- GALLERY */
+
+.gallery-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-color-darkGrey {
+    background-color: #2F4F4F;
+    color: #fff;
+}
+
+.bg-color-lightGrey {
+    background-color: #C0C0C0;
+}
+
+.page-header-bio h1 {
+    border-bottom: 3px dashed #000;
+    padding: 20px 10px;
+}
+
+.page-header-groupSnaps h2 {
+    border-bottom: 3px dashed #000;
+    padding: 20px 10px;
+    font-size: 36px;
+}
+
+
+/*--------------------------- -bio-GALLERY */
+
+.bio-container {
+    padding-bottom: 30px;
+}
+
+.bio-images p {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 16px;
+}
+
+.bio-images img {
+    width: 65%;
+    margin: 30px 0;
+}
+
+/*--------------------------- -group-snaps-GALLERY */
+
+.groupSnaps-container {
+    padding-bottom: 30px
+}
+
+.groupSnaps img {
+    width: 90%;
+    margin: 16px 0;
+    border: 3px dashed #000;
+}
+
 /*--------------------------- MEDIA */
 
 .page-header-media h1 {
@@ -628,6 +687,15 @@ footer .fa:hover {
         margin-top: 35px;
     }
 
+    .bio-images img {
+        width: 55%;
+    }
+    
+    .groupSnaps img {
+        width: 95%;
+        margin: 30px 0;
+    }
+
     .video-container video {
         width: 75%;
     }
@@ -676,7 +744,11 @@ footer .fa:hover {
     blockquote p {
         font-size: 30px;
     }
-    
+
+    .bio-images p {
+        font-size: 20px;
+    }
+
     .page-header-media h1 {
         font-size: 62px;
     }
