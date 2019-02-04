@@ -282,7 +282,82 @@ blockquote footer {
     margin-top: 40px;
 }
 
-/*--------------------------- Form-BOOKING */
+/*--------------------------- MEDIA */
+
+.media-banner {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5F9EA0;
+    padding-bottom: 30px;
+}
+
+.media-banner p {
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.media-banner .media-button {
+    border: 3px dashed #4a4a4f;
+    font-size: 24px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.media-banner .media-button:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    font-size: 30px;
+}
+
+
+/*--------------------------- video-MEDIA */
+
+.video-container {
+    text-align: center;
+    background-color: #C0C0C0;
+    border-bottom: 3px dashed #000;
+}
+
+.video-container video {
+    width: 90%;
+    margin: 50px 0;
+    border: 3px dashed #000;
+}
+
+/*--------------------------- audio-MEDIA */
+
+.audio-container {
+    text-align: center;
+    background-color: #5F9EA0;
+    padding-bottom: 50px;
+}
+
+.audio-container p {
+    margin: 50px 0 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.audio-player {
+    margin-bottom: 30px;
+    width: 70%;
+}
+
+.audio-container img {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    border: 3px dashed #000;
+}
+
+
+/*--------------------------- BOOKING */
 
 .bg-color-lightGrey {
     background-color: #C0C0C0;
@@ -305,6 +380,8 @@ blockquote footer {
     margin-top: 20px;
 
 }
+
+/*--------------------------- form-BOOKING */
 
 .form-group {
     text-align: center;
@@ -537,6 +614,28 @@ footer .fa:hover {
         margin-top: 35px;
     }
 
+    .video-container video {
+        width: 75%;
+    }
+
+    .audio-container {
+        padding-top: 50px
+    }
+
+    .audio-container p {
+        margin-top: 10px;
+    }
+
+    .audio-container img {
+        margin-bottom: 50px;
+    }
+
+    .audio-player {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        width: 80%;
+    }
+
     .page-header-booking h2 {
         font-size: 100px;
         margin-top: 20px;
@@ -566,6 +665,10 @@ footer .fa:hover {
 
     blockquote p {
         font-size: 30px;
+    }
+
+    .media-banner p {
+        font-size: 26px;
     }
 
     .booking-form .form-group label {
