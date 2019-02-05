@@ -159,6 +159,8 @@ To deploy my project I used the git version control system to add my code to the
 
 Before doing this I had to create a repository on GitHub and once I had pushed the code using git, I then used GitHub pages (gh-pages) to publish my site.
 
+You can run this code locally by downloading the repository on GitHub - this can be done by pressing the green button that says 'Clone or download' and the select 'download as zip', then you would extract the files so they can be opened in a local IDE.
+
 GitHub website  - https://matthewhopwood.github.io/the-monkees-project/
 
 ## Credits
