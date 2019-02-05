@@ -81,7 +81,7 @@ and aesthetically pleasing.
 ### Features Left to Implement
 
 ###### Feature No.1 - Back-End System
-- To allow communication from the modal and form elements to the servers, for payments and automation etc.
+- To allow communication from the modal and form elements to the servers, for payments and dynamic content etc.
 
 ###### Feature No.2 - Audio-Player 
 - To allow a playlist of songs to autoplay/loop/shuffle.
@@ -96,13 +96,13 @@ and possibly worldwide.
 - Used to create the html document and the layout of the webpage using a semantic structure. This code will be found in a .html file.
 
 ##### CSS3
-- Use to create custom styling for each of the elements within the html document. Usually found in a style.css file.
+- Used to create custom styling for each of the elements within the html document. Usually found in a external .css file.
 
 ##### JQuery  - http://code.jquery.com/
 - This is a small, fast JavaScript library that was used specifically for adding js functionality to the modals and burger-icon.
 
 ##### Bootstrap - https://getbootstrap.com/docs/3.3/
-- This CDN has multiple sections including CSS, components and JavaScript - which were all used within my code.
+- This front-end framework has multiple sections including CSS, components and JavaScript - which were all used within my code.
 
 ##### Google Fonts - https://fonts.google.com/
 - Used to include different font styles and font weights in the website. Specifically Indie Flower and Exo with a range of 100 - 700 font weights.
