@@ -63,7 +63,7 @@ with the second aimed at smaller screen sizes, using the 'select' input type.
 - This features a collection of photos of the band as a group and individual band members, along with a brief explanation of each member.
 
 ###### Feature No.7 - Media-Page-Video
-- The video will autoplay upon visiting the media page, and has a wealth of controls for a positive user experience,
+- There is a video included on the media page in mp4 format which technically works in all browsers through flash or HTML5, and has a wealth of controls for a positive user experience,
 including play/pause/volume etc.
 
 ###### Feature No.8 - Media-Page-Audio
